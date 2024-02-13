@@ -19,8 +19,159 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="py-10 p-5 mx-auto md:w-[90%]">
+        <div class="flex gap-5 flex-col-reverse md:flex-row">
+            <div class="flex-1 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                <!-- tringle card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/triangle.png" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Tringle</h2>
+                      <p> Area (A) = 0.5 x b x h</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="b">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="h">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rectangle card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="p-5" src="images/rectangle.png" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Rectangle</h2>
+                      <p> Area (A) = 0.5 x w x i</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2 flex-1" type="text" placeholder="w">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="i">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Parallelogram card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="p-3" src="images/parallelogram.png" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Parallelogram</h2>
+                      <p> Area (A) =b x h</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2 flex-1" type="text" placeholder="b">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="h">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Rhombus card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="p-3" src="images/rhombus.png" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Rhombus</h2>
+                      <p> Area (A) = 0.5 x d1 x 2</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2 flex-1" type="text" placeholder="d1">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="d2">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Pentagon card-->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png"/></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Pentagon</h2>
+                      <p> Area (A) = 0.5 x p x b</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2 flex-1" type="text" placeholder="p">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="b">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Ellipse card-->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img class="p-3" src="images/ellipse.png" /></figure>
+                    <div class="card-body text-center">
+                      <h2 class="card-title mx-auto">Ellipse</h2>
+                      <p> Area (A) = πab</p>
+                      <div class="flex items-center gap-4">
+                        <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2 flex-1" type="text" placeholder="a">
+                        <p>cm</p>
+                        </div>
+                       <div class="flex gap-2 items-center">
+                        <input class="w-[70px] md:w-[40px] lg:w-[70px] rounded-md bg-slate-300 px-3 py-2" type="text" placeholder="b">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div>
+                <p>Area: <span></span> <span>cm <sup>2</sup></span></p>
+                </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
 
+            </div>
+            <div class="text-center border border-gray-300 h-[100vh] md:h-[380px] md:w-[220px] p-2 md:p-5 rounded-md">
+                <h2 class="">Area Calculation</h2>
+            </div>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
